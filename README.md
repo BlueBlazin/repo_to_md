@@ -22,9 +22,9 @@ Usage: main.py [OPTIONS] PATTERN...
 
   Bundle repository files into one Markdown document.
 
-  INCLUDE takes one or more shell‑style glob patterns (`"src/**/*.rs"`).  Wrap
-  them in quotes if your shell would expand them.  Use `‑x/‑‑exclude` to drop
-  matches.  Output is alphabetised by **basename** for readability.
+  INCLUDE takes one or more shell‑style glob patterns (`"src/**/*.rs"`). Wrap
+  them in quotes if your shell would expand them. Use `‑x/‑‑exclude` to drop
+  matches. Output is alphabetised by **basename** for readability.
 
 Options:
   -x, --exclude PATTERN     Glob patterns to remove *after* inclusion
