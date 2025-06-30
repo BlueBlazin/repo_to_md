@@ -27,7 +27,7 @@ repo_to_md "src/**/*.rs" -B ~/projects/gizmo -x src/bin/** > bundle.md
 
 Markdown format
 ---------------
-Each file appears as an HTML comment + fenced code‑block.  The language tag is
+Each file appears as an HTML comment + fenced code‑block. The language tag is
 inferred from the extension via `_EXTENSION_TO_LANGUAGE` (extend it as you
 wish).
 
@@ -171,9 +171,9 @@ def cli(
 ) -> None:  # noqa: D401
     """Bundle repository files into one Markdown document.
 
-    INCLUDE takes one or more shell‑style glob patterns (`"src/**/*.rs"`).  Wrap
-    them in quotes if your shell would expand them.  Use `‑x/‑‑exclude` to drop
-    matches.  Output is alphabetised by **basename** for readability.
+    INCLUDE takes one or more shell‑style glob patterns (`"src/**/*.rs"`). Wrap
+    them in quotes if your shell would expand them. Use `‑x/‑‑exclude` to drop
+    matches. Output is alphabetised by **basename** for readability.
     """
 
     base_dir = base_dir.expanduser().resolve()
